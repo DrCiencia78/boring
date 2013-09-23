@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JRColorDelegate.h"
 
-@interface JRViewController : UIViewController
+@interface JRViewController : UIViewController <JRColorDelegate>
 
+@property (weak, nonatomic) IBOutlet UILabel *colorLabel;
 @end

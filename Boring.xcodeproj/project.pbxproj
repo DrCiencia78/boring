@@ -21,6 +21,8 @@
 		773E333D17F096D700DDA96A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773E331F17F096D600DDA96A /* UIKit.framework */; };
 		773E334517F096D700DDA96A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 773E334317F096D700DDA96A /* InfoPlist.strings */; };
 		773E334717F096D700DDA96A /* BoringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 773E334617F096D700DDA96A /* BoringTests.m */; };
+		773E335317F0970E00DDA96A /* JRBoringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773E335117F0970E00DDA96A /* JRBoringViewController.m */; };
+		773E335417F0970E00DDA96A /* JRBoringViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773E335217F0970E00DDA96A /* JRBoringViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		773E334217F096D700DDA96A /* BoringTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BoringTests-Info.plist"; sourceTree = "<group>"; };
 		773E334417F096D700DDA96A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		773E334617F096D700DDA96A /* BoringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoringTests.m; sourceTree = "<group>"; };
+		773E335017F0970E00DDA96A /* JRBoringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBoringViewController.h; sourceTree = "<group>"; };
+		773E335117F0970E00DDA96A /* JRBoringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBoringViewController.m; sourceTree = "<group>"; };
+		773E335217F0970E00DDA96A /* JRBoringViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JRBoringViewController.xib; sourceTree = "<group>"; };
+		773E335517F09D0900DDA96A /* JRColorDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRColorDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +122,11 @@
 				773E332B17F096D600DDA96A /* JRAppDelegate.m */,
 				773E332D17F096D600DDA96A /* Main.storyboard */,
 				773E333017F096D600DDA96A /* JRViewController.h */,
+				773E335517F09D0900DDA96A /* JRColorDelegate.h */,
 				773E333117F096D600DDA96A /* JRViewController.m */,
+				773E335017F0970E00DDA96A /* JRBoringViewController.h */,
+				773E335117F0970E00DDA96A /* JRBoringViewController.m */,
+				773E335217F0970E00DDA96A /* JRBoringViewController.xib */,
 				773E333317F096D600DDA96A /* Images.xcassets */,
 				773E332217F096D600DDA96A /* Supporting Files */,
 			);
@@ -232,6 +242,7 @@
 				773E333417F096D600DDA96A /* Images.xcassets in Resources */,
 				773E332617F096D600DDA96A /* InfoPlist.strings in Resources */,
 				773E332F17F096D600DDA96A /* Main.storyboard in Resources */,
+				773E335417F0970E00DDA96A /* JRBoringViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +264,7 @@
 				773E332C17F096D600DDA96A /* JRAppDelegate.m in Sources */,
 				773E333217F096D600DDA96A /* JRViewController.m in Sources */,
 				773E332817F096D600DDA96A /* main.m in Sources */,
+				773E335317F0970E00DDA96A /* JRBoringViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
